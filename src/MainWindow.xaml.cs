@@ -16,6 +16,7 @@ namespace Elternportal
 		private void settings_Click(object sender, RoutedEventArgs e)
 		{
 			SettingsManager.UpdateSettingsGui();
+			Programm.settingswin.Hide();
 			Programm.settingswin.Show();
 		}
 

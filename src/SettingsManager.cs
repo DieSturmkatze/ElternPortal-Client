@@ -37,21 +37,22 @@ namespace Elternportal
 
 		public static void WriteSettings()
 		{
-			if (!Directory.Exists(AppPath)) {Directory.CreateDirectory(AppPath);}
-			
+			if (!Directory.Exists(AppPath)) { Directory.CreateDirectory(AppPath); }
+
 			SaveSettings();
 
+			if (SettingList.username == "") { return; }
 			File.WriteAllText(SettingPath, json);
 		}
 		public static void LoadSettings()
 		{   
 			if (!File.Exists(SettingPath)) {return;}
 
-			json = File.ReadAllText(SettingPath);
+			string jsonr = File.ReadAllText(SettingPath);
 			
-			Programm.settingswin.test.Content = json;
-			UpdateSettings(json);
-			UpdateSettingsGui();
+			Programm.settingswin.test.Content = jsonr;
+			//UpdateSettings(json);
+			//UpdateSettingsGui();
 		}
 	}
 

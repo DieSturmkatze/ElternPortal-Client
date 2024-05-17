@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Elternportal"
         mc:Ignorable="d"
-        Title="Settings" Height="400" Width="400" ResizeMode="NoResize" ShowInTaskbar="False" SizeToContent="Height" MinHeight="300">
+        Title="Settings" Height="400" Width="400" ResizeMode="NoResize" ShowInTaskbar="False" SizeToContent="Height" MinHeight="300" Closing="Window_Closing">
     <Grid>
 		<Grid.ColumnDefinitions>
 			<ColumnDefinition Width="1*"/>

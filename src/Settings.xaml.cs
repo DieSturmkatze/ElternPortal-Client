@@ -19,13 +19,19 @@ namespace Elternportal
 
 		private void savesett_Click(object sender, RoutedEventArgs e)
 		{
-			SettingsManager.SaveSettings();
+			SettingsManager.WriteSettings();
 		}
 
 		private void Oksett_Click(object sender, RoutedEventArgs e)
 		{
-			SettingsManager.SaveSettings();
+			SettingsManager.WriteSettings();
 			this.Hide();
 		}
-	}
+
+		private void Window_Closing(object sender, System.ComponentModel.CancelEventArgs e)
+		{
+			this.Hide();
+			e.Cancel = true;
+        }
+    }
 }

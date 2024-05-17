@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "G:\\Desktop\\Random Shit\\Elternportal\\src\\Elternportal.csproj": {}
+    "G:\\Desktop\\Random Shit\\ElternPortal-Client\\src\\Elternportal.csproj": {}
   },
   "projects": {
-    "G:\\Desktop\\Random Shit\\Elternportal\\src\\Elternportal.csproj": {
+    "G:\\Desktop\\Random Shit\\ElternPortal-Client\\src\\Elternportal.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "G:\\Desktop\\Random Shit\\Elternportal\\src\\Elternportal.csproj",
+        "projectUniqueName": "G:\\Desktop\\Random Shit\\ElternPortal-Client\\src\\Elternportal.csproj",
         "projectName": "Elternportal",
-        "projectPath": "G:\\Desktop\\Random Shit\\Elternportal\\src\\Elternportal.csproj",
+        "projectPath": "G:\\Desktop\\Random Shit\\ElternPortal-Client\\src\\Elternportal.csproj",
         "packagesPath": "C:\\Users\\Michi\\.nuget\\packages\\",
-        "outputPath": "G:\\Desktop\\Random Shit\\Elternportal\\src\\obj\\",
+        "outputPath": "G:\\Desktop\\Random Shit\\ElternPortal-Client\\src\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
