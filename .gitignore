@@ -1,2 +1,4 @@
 *.vsidxs
 .vs
+/obj
+/bin

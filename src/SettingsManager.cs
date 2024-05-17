@@ -1,6 +1,5 @@
 ﻿using System.IO;
 using System.Text.Json;
-using Newtonsoft.Json.Converters;
 
 namespace Elternportal
 {
@@ -10,29 +9,28 @@ namespace Elternportal
 		public static string AppPath = "C:\\Users\\" + localusername + "\\AppData\\Local\\ElternportalClient";
 		private static string SettingPath = AppPath + "\\settings.json";
 
-		public static SettingList SettingList = new SettingList();
+		public static SettingList SettingList1 = new SettingList();
 		private static string json ="";
 
 		public static void SaveSettings()
 		{
 
 			//Programm.settingswin.test.Content = AppPath;
-			SettingList.username = Programm.settingswin.usrname.Text;
-			SettingList.password = Programm.settingswin.passw.Password;
-			json = JsonSerializer.Serialize(SettingList);
-			
-
+			SettingList1.username = Programm.settingswin.usrname.Text;
+			SettingList1.password = Programm.settingswin.passw.Password;
+			json = JsonSerializer.Serialize(SettingList1);
 		}
 
 		public static void UpdateSettingsGui()
 		{
-			Programm.settingswin.usrname.Text = SettingList.username;
-			Programm.settingswin.passw.Password = SettingList.password;
+			Programm.settingswin.usrname.Text = SettingList1.username;
+			Programm.settingswin.test.Content = SettingList1.username;
 		}
 
 		public static void UpdateSettings(string ujson)
 		{
-			List<SettingList> items = Newtonsoft.Json.JsonConvert.DeserializeObject<List<SettingList>>(json);
+			SettingList? SettingList1 =
+				JsonSerializer.Deserialize<SettingList>(ujson);
 		}
 
 		public static void WriteSettings()
@@ -41,7 +39,7 @@ namespace Elternportal
 
 			SaveSettings();
 
-			if (SettingList.username == "") { return; }
+			if (SettingList1.username == "") { return; }
 			File.WriteAllText(SettingPath, json);
 		}
 		public static void LoadSettings()
@@ -51,8 +49,7 @@ namespace Elternportal
 			string jsonr = File.ReadAllText(SettingPath);
 			
 			Programm.settingswin.test.Content = jsonr;
-			//UpdateSettings(json);
-			//UpdateSettingsGui();
+			UpdateSettings(jsonr);
 		}
 	}
 
