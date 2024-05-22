@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "9mkKHffYko+YpV3tca3PzhJew7JM7I/EdGkCptQiG4iPG0JHltD3EaMGvqRkgDqT05h7nWKFYJ0uDiMq1oMiUw==",
+  "success": true,
+  "projectFilePath": "G:\\Desktop\\Random Shit\\ElternPortal-Client\\src\\Elternportal.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Michi\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}

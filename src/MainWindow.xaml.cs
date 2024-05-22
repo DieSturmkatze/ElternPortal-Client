@@ -22,7 +22,7 @@ namespace Elternportal
 
 		private void Main_Window_Closing(object sender, System.ComponentModel.CancelEventArgs e)
 		{
-			SettingsManager.WriteSettings();
+			//SettingsManager.WriteSettings();
 			Programm.settingswin.Close();
 			System.Environment.Exit(1);
 		}
