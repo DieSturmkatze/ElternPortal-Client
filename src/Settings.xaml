@@ -33,7 +33,7 @@
 
 			<Label Padding="0,5,0,0">Theme:</Label>
 			<TextBox x:Name="theme">Dark.Orange</TextBox>
-			<Button x:Name="applyt" Click="applyt_Click">Apply Theme</Button>
+			<Button Margin="0,5,0,0" x:Name="applyt" Click="applyt_Click">Apply Theme</Button>
 
 
 		</StackPanel>

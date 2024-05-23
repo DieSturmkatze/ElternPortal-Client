@@ -20,7 +20,7 @@
 
 
 		<TabControl x:Name="catg" HorizontalAlignment="Stretch" Margin="5,5,0,0">
-			<TabItem Header="Stundenplan" >
+			<TabItem Header="Stundenplan">
 				<TextBlock Text="Stundenplan"/>
 			</TabItem>
 			<TabItem Header="Vertretungen" >

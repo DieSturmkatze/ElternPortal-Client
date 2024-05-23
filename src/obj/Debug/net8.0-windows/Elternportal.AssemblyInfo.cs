@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Elternportal")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+8c4ad706af73edf9ae913b39b224d263c83a9b47")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+455ed52a707341e2df13d2c3fd3d0992bf8029df")]
 [assembly: System.Reflection.AssemblyProductAttribute("Elternportal")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Elternportal")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
