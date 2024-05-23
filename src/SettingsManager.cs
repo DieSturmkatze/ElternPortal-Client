@@ -9,6 +9,8 @@ namespace Elternportal
 		{
 			Programm.settingswin.usrname.Text = Properties.Settings.Default.username;
 			Programm.settingswin.passw.Password = Properties.Settings.Default.password;
+			Programm.settingswin.theme.Text = Properties.Settings.Default.theme;
+
 		}
 
 		public static void UpdateSettings()
@@ -21,6 +23,7 @@ namespace Elternportal
 		{
 			Properties.Settings.Default.username = Programm.settingswin.usrname.Text;
 			Properties.Settings.Default.password = Programm.settingswin.passw.Password;
+			Properties.Settings.Default.theme = Programm.settingswin.theme.Text;
 			Properties.Settings.Default.Save();
 		}
 	}

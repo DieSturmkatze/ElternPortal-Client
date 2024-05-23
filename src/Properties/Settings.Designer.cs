@@ -49,13 +49,13 @@ namespace Elternportal.Properties {
         
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("True")]
-        public bool darkmode {
+        [global::System.Configuration.DefaultSettingValueAttribute("Dark.Orange")]
+        public string theme {
             get {
-                return ((bool)(this["darkmode"]));
+                return ((string)(this["theme"]));
             }
             set {
-                this["darkmode"] = value;
+                this["theme"] = value;
             }
         }
         

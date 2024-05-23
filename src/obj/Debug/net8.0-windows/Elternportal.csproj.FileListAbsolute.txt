@@ -25,3 +25,8 @@ G:\Desktop\Random Shit\ElternPortal-Client\src\obj\Debug\net8.0-windows\refint\E
 G:\Desktop\Random Shit\ElternPortal-Client\src\obj\Debug\net8.0-windows\Elternportal.pdb
 G:\Desktop\Random Shit\ElternPortal-Client\src\obj\Debug\net8.0-windows\Elternportal.genruntimeconfig.cache
 G:\Desktop\Random Shit\ElternPortal-Client\src\obj\Debug\net8.0-windows\ref\Elternportal.dll
+G:\Desktop\Random Shit\ElternPortal-Client\src\bin\Debug\net8.0-windows\ControlzEx.dll
+G:\Desktop\Random Shit\ElternPortal-Client\src\bin\Debug\net8.0-windows\MahApps.Metro.dll
+G:\Desktop\Random Shit\ElternPortal-Client\src\bin\Debug\net8.0-windows\Microsoft.Xaml.Behaviors.dll
+G:\Desktop\Random Shit\ElternPortal-Client\src\bin\Debug\net8.0-windows\de\MahApps.Metro.resources.dll
+G:\Desktop\Random Shit\ElternPortal-Client\src\obj\Debug\net8.0-windows\App.baml

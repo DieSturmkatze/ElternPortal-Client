@@ -1,10 +1,14 @@
 {
   "version": 2,
-  "dgSpecHash": "9mkKHffYko+YpV3tca3PzhJew7JM7I/EdGkCptQiG4iPG0JHltD3EaMGvqRkgDqT05h7nWKFYJ0uDiMq1oMiUw==",
+  "dgSpecHash": "gE5iyysFAUkh91AdkRzjOFsWG+tUIIKokqRC5CHfkRdNEvSDsUw93qr3tG/79EUtUg4x5lVE5RVMQdiSL+OQAw==",
   "success": true,
   "projectFilePath": "G:\\Desktop\\Random Shit\\ElternPortal-Client\\src\\Elternportal.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\Michi\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512"
+    "C:\\Users\\Michi\\.nuget\\packages\\controlzex\\4.4.0\\controlzex.4.4.0.nupkg.sha512",
+    "C:\\Users\\Michi\\.nuget\\packages\\mahapps.metro\\2.4.10\\mahapps.metro.2.4.10.nupkg.sha512",
+    "C:\\Users\\Michi\\.nuget\\packages\\microsoft.xaml.behaviors.wpf\\1.1.19\\microsoft.xaml.behaviors.wpf.1.1.19.nupkg.sha512",
+    "C:\\Users\\Michi\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512",
+    "C:\\Users\\Michi\\.nuget\\packages\\system.text.json\\4.7.2\\system.text.json.4.7.2.nupkg.sha512"
   ],
   "logs": []
 }

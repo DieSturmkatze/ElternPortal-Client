@@ -1,13 +1,16 @@
 ﻿using System.Windows;
 using System.Windows.Controls;
+using System.Windows.Controls.Primitives;
 using System.Windows.Media;
+using ControlzEx.Theming;
+using MahApps.Metro.Controls;
 
 namespace Elternportal
 {
 	/// <summary>
 	/// Interaction logic for MainWindow.xaml
 	/// </summary>
-	public partial class MainWindow : Window
+	public partial class MainWindow
 	{
 
 		public MainWindow()
@@ -15,15 +18,8 @@ namespace Elternportal
 			InitializeComponent();
 			Programm.Main();
 
-			Brush black = new(V);
-			Brush white = new();
-
-
-			if (Properties.Settings.Default.darkmode)
-			{
-
-				App.Current.RequestedTheme == ApplicationTheme.Light;
-			}
+			ThemeManager.Current.ChangeTheme(Programm.settingswin, Properties.Settings.Default.theme);
+			ThemeManager.Current.ChangeTheme(Application.Current.MainWindow, Properties.Settings.Default.theme);
 		}
 
 		private void settings_Click(object sender, RoutedEventArgs e)
@@ -39,5 +35,6 @@ namespace Elternportal
 			Programm.settingswin.Close();
 			System.Environment.Exit(1);
 		}
+
 	}
 }

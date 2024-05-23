@@ -1,15 +1,17 @@
 ﻿using System.Windows;
+using ControlzEx.Theming;
 
 namespace Elternportal
 {
 	/// <summary>
 	/// Interaction logic for Settings.xaml
 	/// </summary>
-	public partial class Settings : Window
+	public partial class Settings
 	{
 		public Settings()
 		{
 			InitializeComponent();
+
 		}
 
 		private void closesett_Click(object sender, RoutedEventArgs e)
@@ -33,5 +35,10 @@ namespace Elternportal
 			this.Hide();
 			e.Cancel = true;
         }
-    }
+		private void applyt_Click(object sender, RoutedEventArgs e)
+		{
+			ThemeManager.Current.ChangeTheme(Programm.settingswin, theme.Text);
+			ThemeManager.Current.ChangeTheme(Application.Current.MainWindow, theme.Text);
+		}
+	}
 }
